@@ -11,7 +11,7 @@
   --color-border: #373737;
 
   /* Font & Typography
-  ___________________*/
+ ___________________*/
   --ff-body: "Space Grotesk", sans-serif;
   /* font sizes */
   --fs-sm: 1.4rem;
@@ -508,6 +508,99 @@ body {
 .values__title {
   font-size: var(--fs-lg);
   margin-bottom: 3rem;
+}
+
+
+/* Projects
+--------------------------------------------------------------*/
+.project__content {
+  width: 100%;
+  max-width: 30rem;
+  justify-self: center;
+}
+
+.project__img {
+  margin-bottom: 2rem;
+}
+
+.project__title {
+  color: var(--color-white);
+  font-size: var(--fs-lg);
+  margin-bottom: 1rem;
+}
+
+.project__description {
+  margin-bottom: 2rem;
+}
+
+.project__link {
+  font-size: var(--fs-sm);
+  text-transform: uppercase;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  transition: var(--transition);
+}
+
+.project__link:hover {
+  color: var(--color-primary);
+  column-gap: 1rem;
+}
+
+
+/* Recommendations
+--------------------------------------------------------------*/
+.recommendations__card {
+  background-color: var(--color-bg-secondary);
+  box-shadow: var(--box-shadow);
+  padding: 3rem 5rem;
+  width: 100%;
+  max-width: 50rem;
+  text-align: center;
+  justify-self: center;
+  margin-bottom: 2rem;
+}
+
+.recommendations__img {
+  max-width: 10rem;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.recommendations__description {
+  color: var(--color-white);
+  margin-bottom: 3rem;
+}
+
+.recommendations__name {
+  font-size: var(--fs-md);
+  margin-bottom: 0.5rem;
+}
+
+.recommendations__occupation {
+  font-size: var(--fs-sm);
+}
+
+/* recommendations slide */
+.recommendations__wrapper .swiper-wrapper {
+  padding-bottom: 5rem;
+}
+
+.recommendations__wrapper .swiper-pagination-bullets {
+  justify-content: space-around;
+}
+
+.recommendations__wrapper .swiper-pagination-bullet {
+  background-color: var(--color-text);
+  border-radius: 0;
+  width: 3rem;
+  height: 0.5rem;
+}
+
+.recommendations__wrapper .swiper-pagination-bullet-active {
+  background-color: var(--color-primary);
 }
 
 /* Add to your CSS */
