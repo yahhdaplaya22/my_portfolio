@@ -794,6 +794,88 @@ body {
   }
 }
 
+/* Contact 
+--------------------------------------------------------------*/
+.contact__wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: var(--fs-xxl);
+  margin-bottom: 2rem;
+}
+
+.contact__content {
+  width: 100%;
+  margin: auto;
+}
+
+.contact__description {
+  margin-bottom: 2rem;
+}
+
+/* Footer Adjustments
+--------------------------------------------------------------*/
+/* Grid */
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.footer__wrapper,
+.contact__wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+/* Smaller Screen */
+.footer__content {
+  text-align: center;
+}
+
+/* Social Links Display */
+.footer__social-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+/* Email Text */
+.footer__contact {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--text-color, #9f1dc7); 
+  text-decoration: none;
+}
+
+/* Copyright Style */
+.footer__copyright {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+/*Social Links Style*/
+
+.footer__social-link {
+  font-size: 1.5rem;
+  color: #aaa;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer__social-link:hover {
+  color: #6a11cb; 
+  transform: scale(1.2);
+}
+
 /* ==== 🔵 Glow + Pulse + Gradient + White Hover Ring for Buttons ==== */
 .btn--primary {
   background: linear-gradient(from 0deg, #6a11cb, #fc25bb, #1757e0, #6a11cb); /* fav gradient */
