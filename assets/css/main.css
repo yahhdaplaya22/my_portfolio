@@ -826,6 +826,13 @@ body {
   gap: 2rem;
 }
 
+.footer {
+  background-color: #000;
+  padding: 3rem 0;
+  color: #fff;
+  transition: background-color 0.4s ease;
+}
+
 .footer__wrapper,
 .contact__wrapper {
   max-width: 1000px;
@@ -845,14 +852,21 @@ body {
   gap: 1rem;
   padding: 0;
   list-style: none;
+  margin-top: 2.26rem;
 }
 
 /* Email Text */
 .footer__contact {
   display: inline-block;
   margin-top: 0.5rem;
-  color: var(--text-color, #9f1dc7); 
+  color: var(--text-color,#aaa); 
   text-decoration: none;
+  text-align: center;
+  padding: 2rem 1rem;
+  transition: color 0.3s ease;
+}
+.footer__contact:hover {
+  color: #6a11cb
 }
 
 /* Copyright Style */
@@ -866,9 +880,10 @@ body {
 /*Social Links Style*/
 
 .footer__social-link {
-  font-size: 1.5rem;
+  font-size: 2.25rem;
   color: #aaa;
   transition: color 0.3s ease, transform 0.3s ease;
+ 
 }
 
 .footer__social-link:hover {
